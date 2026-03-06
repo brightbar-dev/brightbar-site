@@ -1,0 +1,11 @@
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+
+# Node modules (wrangler)
+node_modules/
+.wrangler/
+
+# OS
+.DS_Store
