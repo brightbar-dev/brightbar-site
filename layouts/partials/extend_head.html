@@ -1,5 +1,2 @@
-{{- /* Cloudflare Web Analytics — free, privacy-respecting, no cookies */ -}}
-{{- /* Replace PLACEHOLDER_TOKEN with your CF Web Analytics token from the dashboard */ -}}
-{{- if eq hugo.Environment "production" -}}
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "PLACEHOLDER_TOKEN"}'></script>
-{{- end -}}
+{{- /* Cloudflare Web Analytics is enabled via "Automatic setup" in the CF dashboard. */ -}}
+{{- /* No JS snippet needed — CF injects the beacon server-side for Pages sites. */ -}}
