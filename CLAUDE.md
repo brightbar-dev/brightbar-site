@@ -11,7 +11,8 @@ Brand site for Brightbar developer tools. Hugo + PaperMod, deployed on Cloudflar
 ## Structure
 
 - `content/blog/` — blog posts (markdown, PaperMod front matter)
-- `content/products.md` — products listing page
+- `content/products/_index.md` — products section listing
+- `content/products/<product>.md` — individual product pages (devtools-pro, browser-api-client, etc.)
 - `static/privacy/` — per-product privacy policy pages (plain HTML)
 - `layouts/partials/extend_footer.html` — custom footer (newsletter form, copyright)
 - `hugo.toml` — site config (theme, menus, social icons)
@@ -22,6 +23,7 @@ Brand site for Brightbar developer tools. Hugo + PaperMod, deployed on Cloudflar
 - Home: https://brightbar.dev/
 - Blog: https://brightbar.dev/blog/
 - Products: https://brightbar.dev/products/
+- Product pages: https://brightbar.dev/products/{product-name}/
 - Privacy: https://brightbar.dev/privacy/{product-name}
 - RSS: https://brightbar.dev/index.xml
 - Search: https://brightbar.dev/search/
