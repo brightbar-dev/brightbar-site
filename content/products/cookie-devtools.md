@@ -24,5 +24,6 @@ Developer-focused cookie manager with real-time change monitoring, environment p
 
 ## Links
 
+- [Install from Chrome Web Store](https://chromewebstore.google.com/detail/cookie-devtools/pgohmdladleifefhobididhhlmjcknjl)
 - [Source on GitHub](https://github.com/brightbar-dev/cookie-devtools)
 - [Privacy Policy](/privacy/cookie-devtools)

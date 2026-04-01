@@ -37,5 +37,6 @@ $60 one-time purchase. 7-day free trial.
 
 ## Links
 
+- [Install from Chrome Web Store](https://chromewebstore.google.com/detail/devtools-pro/lbgjfgdjjeiajkkcppdnclmkicihehkf)
 - [Source on GitHub](https://github.com/brightbar-dev/devtools-pro)
 - [Privacy Policy](/privacy/devtools-pro)

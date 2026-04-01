@@ -23,5 +23,6 @@ Search any Tailwind CSS class to see its CSS output. Inspect elements to discove
 
 ## Links
 
+- [Install from Chrome Web Store](https://chromewebstore.google.com/detail/tailwind-css-lookup/aidmbejficajnpdfdlpgpehbooffagbo)
 - [Source on GitHub](https://github.com/brightbar-dev/tailwind-lookup)
 - [Privacy Policy](/privacy/tailwind-lookup)

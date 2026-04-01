@@ -33,5 +33,6 @@ $50/year. 7-day free trial.
 
 ## Links
 
+- [Install from Chrome Web Store](https://chromewebstore.google.com/detail/browser-api-client/gnfhfenegmjdjlfclcabfmajgaiaheij)
 - [Source on GitHub](https://github.com/brightbar-dev/browser-api-client)
 - [Privacy Policy](/privacy/browser-api-client)

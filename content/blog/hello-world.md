@@ -12,11 +12,15 @@ Every extension we ship is open source, collects zero user data, and does exactl
 
 ## What we've built so far
 
-**[JSON Viewer Pro](/products/)** — Auto-detects and formats JSON responses with an interactive tree view, search, and themes. Available now on the Chrome Web Store.
+**[JSON Viewer Pro](/products/json-viewer-pro/)** — Auto-detects and formats JSON responses with an interactive tree view, search, and themes. Available now on the Chrome Web Store.
 
-**[Tailwind CSS Lookup](/products/)** — Inspect Tailwind classes on any element. Search any class to see the CSS it generates.
+**[Tailwind CSS Lookup](/products/tailwind-lookup/)** — Inspect Tailwind classes on any element. Search any class to see the CSS it generates.
 
-**[Cookie DevTools](/products/)** — A developer-focused cookie manager with real-time monitoring, profiles, and export to curl/wget.
+**[Cookie DevTools](/products/cookie-devtools/)** — A developer-focused cookie manager with real-time monitoring, profiles, and export to curl/wget.
+
+**[DevTools Pro](/products/devtools-pro/)** — All-in-one developer toolkit: CSS inspector, font detector, spacing visualizer, and 9 more tools.
+
+**[Browser API Client](/products/browser-api-client/)** — Lightweight API client in your browser. Build requests, manage environments, export to cURL/fetch/Python.
 
 ## What to expect here
 
