@@ -15,6 +15,12 @@ Search any Tailwind CSS class to see its CSS output. Inspect elements to discove
 - Works with Tailwind v3 and v4 classes
 - Light and dark themes
 
+## Also from Brightbar
+
+- **[DevTools Pro](/products/devtools-pro/)** — CSS inspector, spacing visualizer, and 10 more tools. Pairs perfectly with Tailwind Lookup.
+- **[JSON Viewer Pro](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view and search.
+- **[Cookie DevTools](/products/cookie-devtools/)** — Developer-focused cookie manager with real-time monitoring.
+
 ## Links
 
 - [Source on GitHub](https://github.com/brightbar-dev/tailwind-lookup)

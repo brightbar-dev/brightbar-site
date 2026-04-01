@@ -15,6 +15,12 @@ Auto-detects and formats JSON responses with an interactive tree view, search, a
 - Syntax highlighting with light and dark themes
 - Copy paths, values, or formatted JSON
 
+## Also from Brightbar
+
+- **[Browser API Client](/products/browser-api-client/)** — Send API requests right from your browser. See formatted JSON responses without leaving the tab.
+- **[DevTools Pro](/products/devtools-pro/)** — CSS inspector, font detector, accessibility checker, and 9 more tools in one extension.
+- **[Cookie DevTools](/products/cookie-devtools/)** — Monitor, edit, and export cookies in developer-friendly formats.
+
 ## Links
 
 - [Install from Chrome Web Store](https://chromewebstore.google.com/detail/json-viewer-pro/iodhhjpjemdfmmfffmejfnbbjbfafoac)
