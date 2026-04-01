@@ -1,7 +1,7 @@
 ---
 title: "Your JSON Formatter Extension Might Be Spying on You"
 date: 2026-04-01
-draft: true
+draft: false
 tags: ["chrome-extensions", "privacy", "json", "security"]
 summary: "A popular JSON formatter extension was caught injecting checkout popups and tracking user locations. Here's what happened and what to use instead."
 ---
