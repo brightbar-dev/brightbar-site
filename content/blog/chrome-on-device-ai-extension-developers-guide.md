@@ -10,6 +10,8 @@ Chrome now ships AI models directly in the browser. No API keys. No network requ
 
 That last part is the interesting bit.
 
+> **Note on API naming:** The Prompt API surface has been `self.ai.languageModel`, then `LanguageModel` as a global. Chrome docs currently show both. If one doesn't work, try the other. This post uses the `LanguageModel` global where possible.
+
 ## The API Landscape
 
 Chrome has seven built-in AI APIs at various stages of maturity. Here's the actual status:
@@ -28,18 +30,19 @@ The standout: the **Prompt API is stable for extensions but still in origin tria
 
 ## How It Works
 
-All these APIs run on Gemini Nano, a ~1.7GB model that downloads once and runs locally. The model lives in `chrome://components/` — Chrome manages downloads and updates automatically.
+All these APIs run on Gemini Nano. The model downloads once (~22GB of storage needed) and runs locally. Chrome manages downloads and updates automatically — the model can even hot-swap to a new version while Chrome is running.
 
 ### Hardware Requirements
 
 This is the catch:
 
-- **RAM:** 16GB minimum
-- **VRAM:** 4GB+ (iGPU or discrete)
-- **OS:** Windows 10+, macOS 13+, Linux, ChromeOS
-- **NOT available on:** mobile (Android/iOS), low-RAM machines, Chromebooks with <16GB
+- **Storage:** 22GB free space on the volume containing your Chrome profile
+- **GPU path:** 4GB+ VRAM (preferred, faster inference)
+- **CPU fallback:** 16GB+ RAM, 4+ cores (works since Chrome 140 — previously GPU-only)
+- **OS:** Windows 10+, macOS 13+, Linux, ChromeOS (Chromebook Plus only)
+- **NOT available on:** mobile (Android/iOS), low-RAM machines, regular Chromebooks, Web Workers
 
-That 16GB RAM requirement excludes a meaningful chunk of users. Budget laptops, older machines, and most tablets won't run it. Your extension needs to feature-detect and degrade gracefully.
+The 22GB storage requirement is the real gatekeeper. RAM matters less now that CPU fallback exists, but the storage footprint means your extension needs to feature-detect and degrade gracefully. Chrome will also delete the model automatically if disk space runs low.
 
 ### Language Support
 
@@ -53,11 +56,11 @@ The Prompt API is the most flexible of the bunch. You give it a prompt, it retur
 
 ```javascript
 // Check if the API is available
-const canPrompt = await self.ai.languageModel.capabilities();
+const availability = await LanguageModel.availability();
 
-if (canPrompt.available === 'readily') {
+if (availability.available) {
   // Model is downloaded and ready
-  const session = await self.ai.languageModel.create({
+  const session = await LanguageModel.create({
     systemPrompt: 'You are a helpful assistant that explains code.'
   });
 
@@ -75,10 +78,11 @@ if (canPrompt.available === 'readily') {
 
 ### Key Constraints
 
-- **Context window:** Small. Gemini Nano is a lightweight model — don't feed it an entire codebase.
+- **Context window:** ~6,144 tokens (check `session.maxTokens` at runtime — it varies by model version). Track usage with `session.tokensSoFar` and `session.tokensLeft`.
 - **Reasoning:** Good for classification, summarization, extraction, and rewriting. Not good for complex multi-step reasoning or code generation.
+- **Multimodal input:** The Prompt API accepts text, images, and audio as input (text output only). Audio requires a GPU.
 - **Speed:** Fast on capable hardware. Noticeably slow on minimum-spec machines.
-- **Sessions:** Each session maintains context, but you should `destroy()` when done to free resources.
+- **Sessions:** Each session maintains context (last ~4,096 tokens of conversation). Call `destroy()` when done to free resources. A `contextoverflow` event fires when the context fills — earlier conversation pairs are dropped but the system prompt persists.
 
 ### Streaming Responses
 
@@ -170,18 +174,16 @@ Every use of these APIs needs a fallback:
 
 ```javascript
 async function getPromptSession(systemPrompt) {
-  if (!self.ai?.languageModel) return null;
+  if (typeof LanguageModel === 'undefined') return null;
 
-  const caps = await self.ai.languageModel.capabilities();
-  if (caps.available === 'no') return null;
-
-  if (caps.available === 'after-download') {
-    // Model needs to download — show user a message, don't block
-    // Consider offering a "Download AI model" button
+  const availability = await LanguageModel.availability();
+  if (!availability.available) {
+    // Model not downloaded or device not capable
+    // Consider offering a "Download AI model" button if downloadProgress exists
     return null;
   }
 
-  return self.ai.languageModel.create({ systemPrompt });
+  return LanguageModel.create({ systemPrompt });
 }
 ```
 

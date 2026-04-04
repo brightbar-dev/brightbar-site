@@ -3,10 +3,10 @@ title: "WCAG Compliance for Developers: A Practical Guide for April 2026"
 date: 2026-04-04
 draft: true
 tags: ["accessibility", "wcag", "ada", "developer-tools", "compliance"]
-summary: "The ADA Title II deadline hits April 24. If you build for the web, here's what's actually required, which tools find real issues, and what you'll need to fix by hand."
+summary: "The ADA Title II deadline hits April 26. If you build for the web, here's what's actually required, which tools find real issues, and what you'll need to fix by hand."
 ---
 
-On April 24, 2026, the ADA Title II compliance deadline takes effect. State and local government entities serving populations of 50,000 or more must meet WCAG 2.1 Level AA. Smaller entities get until April 2027.
+On April 26, 2026, the ADA Title II compliance deadline takes effect. State and local government entities serving populations of 50,000 or more must meet WCAG 2.1 Level AA. Smaller entities get until April 2027.
 
 If you build websites for government agencies, educational institutions, or public services — or if your company serves EU customers — this isn't optional anymore. It's law.
 
@@ -133,7 +133,7 @@ Based on the WebAIM Million (annual survey of the top 1 million websites):
 
 ## A Practical Audit Checklist
 
-If you're staring at a site that needs to be compliant by April 24:
+If you're staring at a site that needs to be compliant by April 26:
 
 **Week 1: Scan and Triage**
 - [ ] Run axe DevTools on every major page template (homepage, listing, detail, form, checkout)
@@ -170,7 +170,7 @@ Fixing a codebase for compliance once is necessary. Keeping it accessible is har
 
 ## The Reality Check
 
-Full WCAG 2.1 AA compliance is hard. If your site is a complex application with custom widgets, third-party embeds, and years of accumulated UI debt, you won't be fully compliant by April 24. Nobody will.
+Full WCAG 2.1 AA compliance is hard. If your site is a complex application with custom widgets, third-party embeds, and years of accumulated UI debt, you won't be fully compliant by April 26. Nobody will.
 
 But you can be *demonstrably working on it.* Run the scans, fix the critical issues, document your remediation plan, and keep making progress. The DOJ's enforcement guidance emphasizes good faith and systematic improvement, not perfection on day one.
 
