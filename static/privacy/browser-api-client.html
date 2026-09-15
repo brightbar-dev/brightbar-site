@@ -9,34 +9,39 @@
 <body>
   <p><a href="/">&larr; brightbar.dev</a></p>
   <h1>Privacy Policy — Browser API Client</h1>
-  <p class="updated">Last updated: 2026-03-06</p>
+  <p class="updated">Last updated: 2026-09-15</p>
 
   <h2>Data Collection</h2>
-  <p>Browser API Client does <strong>not</strong> collect, transmit, or share any personal data.</p>
+  <p>Browser API Client does <strong>not</strong> collect, transmit, or share any personal data. It has no account, no sign-in, no analytics and no telemetry, and it sends nothing to Brightbar.</p>
 
   <h2>Permissions Explained</h2>
   <ul>
-    <li><strong>storage</strong>: Used to save your request history, environments, collections, and preferences locally on your device.</li>
-    <li><strong>host_permissions (&lt;all_urls&gt;)</strong>: Required to send HTTP requests to any API endpoint. The extension acts as an HTTP client — it must be able to reach any URL you choose to test. Requests are only sent when you explicitly click "Send".</li>
+    <li><strong>host_permissions (&lt;all_urls&gt;)</strong>: Required to send HTTP requests to any API endpoint you choose and to read the full response. Requests are sent only when you press Send or run a collection. Chrome describes this access as "Read and change all your data on all websites"; the extension injects no scripts into pages and does not read or change the websites you browse.</li>
+    <li><strong>storage</strong>: Saves your work on your device: open request tabs (drafts), request history, environments, collections, OAuth 2.0 tokens and settings.</li>
+    <li><strong>identity</strong>: Used only for OAuth 2.0 authorization-code sign-in. When you click "Get new access token", the browser opens the sign-in page of the provider <em>you</em> configured and returns the authorization code to the extension. The extension never reads your browser or Google account profile.</li>
+    <li><strong>webRequest</strong>: Observes the network events of the extension's <em>own</em> requests, inside its own app tab, to show you details the browser otherwise hides: the redirect chain, <code>Set-Cookie</code> response headers, and the real cause of a network failure (for example DNS, TLS or a refused connection). It observes no other tab, and it blocks or modifies nothing.</li>
   </ul>
 
   <h2>How API Requests Work</h2>
-  <p>When you send an API request, it is executed directly from your browser's background service worker. The request goes from your browser to the target URL you specified — no proxy, no intermediary server. Request and response data stays in your browser.</p>
+  <p>Requests are sent directly from the extension's app page in your browser to the URL you entered — no proxy, no intermediary server. Request and response data stays in your browser.</p>
+  <ul>
+    <li><strong>Cookies:</strong> requests never carry your browser's cookies unless you turn on "Send this site's cookies" for that specific request.</li>
+    <li><strong>OAuth 2.0:</strong> tokens are requested from the token endpoint you configure, stored locally in your browser, and never included in exports, backups or shared collections.</li>
+    <li><strong>First run:</strong> the workspace opens with a sample request to httpbin.org, a public echo service. It is sent only if you press Send.</li>
+  </ul>
 
   <h2>What the extension does NOT do</h2>
   <ul>
     <li>Does not collect analytics or usage data</li>
-    <li>Does not use cookies or tracking pixels</li>
+    <li>Does not use tracking pixels or third-party scripts</li>
     <li>Does not proxy requests through any server</li>
     <li>Does not access your browsing history</li>
-    <li>Does not read or modify page content</li>
+    <li>Does not read or modify the content of the pages you browse</li>
+    <li>Does not require an account or sync anything to a cloud</li>
   </ul>
 
-  <h2>Pro License</h2>
-  <p>If you purchase a Pro license, the transaction is processed by Stripe through ExtensionPay. We do not store your payment information. Your license status is stored locally in your browser.</p>
-
   <h2>Data Storage</h2>
-  <p>Request history, environments, and collections are stored locally on your device using the browser's storage API. You can export and delete this data at any time from the extension's settings page. No data is stored on external servers.</p>
+  <p>Everything — drafts, history, environments, collections, tokens and settings — is stored locally on your device using the browser's storage (including IndexedDB for large responses and attached files). Backups are JSON files that you export and import yourself from Settings. You can delete any of this data at any time. No data is stored on external servers.</p>
 
   <h2>Changes to This Policy</h2>
   <p>If this privacy policy changes, the updated policy will be posted here and the "last updated" date will be revised.</p>
