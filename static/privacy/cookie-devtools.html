@@ -9,22 +9,26 @@
 <body>
   <p><a href="/">&larr; brightbar.dev</a></p>
   <h1>Privacy Policy — Cookie DevTools</h1>
-  <p class="updated">Last updated: 2026-02-24</p>
+  <p class="updated">Last updated: 2026-09-15</p>
 
   <h2>Data Collection</h2>
-  <p>Cookie DevTools does <strong>not</strong> collect, transmit, or share any user data. All data stays on your device.</p>
+  <p>Cookie DevTools does <strong>not</strong> collect, transmit, or share any user data. It has no analytics, no tracking and no ads, and it makes no network requests. Everything it stores stays on your device.</p>
 
   <h2>Permissions Explained</h2>
   <ul>
-    <li><strong>cookies</strong>: Required to read, create, edit, and delete browser cookies (the core functionality).</li>
-    <li><strong>storage</strong>: Used to save your preferences, cookie profiles, and change log locally on your device.</li>
-    <li><strong>activeTab / tabs</strong>: Used to detect the current tab's URL so we can show cookies for the site you're viewing.</li>
-    <li><strong>host_permissions (&lt;all_urls&gt;)</strong>: Required by the chrome.cookies API to access cookies across all domains.</li>
+    <li><strong>cookies</strong>: Required to read, create, edit and delete browser cookies — the core functionality.</li>
+    <li><strong>host_permissions (&lt;all_urls&gt;)</strong>: An extension can read and write a site's cookies only if it has access to that site, and you might be working on any site. Chrome describes this access at install as "Read and change all your data on all websites". Cookie DevTools uses it only for cookies and to see which site the active tab (or the page DevTools is inspecting) is on. It never reads page content and never injects scripts into pages.</li>
+    <li><strong>activeTab</strong>: Lets the popup show the site you are on when you open it.</li>
+    <li><strong>storage</strong>: Saves your settings, cookie profiles, Protect/Block rules and, only if you turn Record on, the change log — all locally on your device.</li>
+    <li><strong>sidePanel</strong>: Shows the same cookie tools in Chrome's side panel, which stays open and follows your tabs.</li>
   </ul>
+  <p>The extension does not request the <strong>tabs</strong> permission. Its DevTools panel requires no additional permission.</p>
 
   <h2>Data Storage</h2>
   <ul>
-    <li>Cookie profiles and change logs are stored locally using <code>chrome.storage.local</code>.</li>
+    <li><strong>Profiles</strong> (named cookie snapshots) and <strong>Protect/Block rules</strong> are stored locally using <code>chrome.storage.local</code>.</li>
+    <li><strong>Change monitor:</strong> the live view is kept in memory only. The saved change log — including cookie names, values, domains and the cause of each change — is written only while you have <em>Record</em> switched on, for the scope you choose, and you can clear it at any time.</li>
+    <li><strong>Import and export:</strong> files and text you import are read locally in the extension. Exports go to your clipboard or to a file you download. Nothing is uploaded.</li>
     <li>No data is sent to any server or third party.</li>
   </ul>
 
