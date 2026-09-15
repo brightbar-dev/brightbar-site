@@ -9,16 +9,24 @@
 <body>
   <p><a href="/">&larr; brightbar.dev</a></p>
   <h1>Privacy Policy — DevTools Pro</h1>
-  <p class="updated">Last updated: 2026-03-06</p>
+  <p class="updated">Last updated: 2026-09-15</p>
 
   <h2>Data Collection</h2>
-  <p>DevTools Pro does <strong>not</strong> collect, transmit, or share any personal data. All inspection and analysis is performed locally in your browser.</p>
+  <p>DevTools Pro does <strong>not</strong> collect, transmit, or share any personal data. All inspection and analysis happens locally in your browser. Every tool is free; there is no account, no license and no payment.</p>
 
   <h2>Permissions Explained</h2>
+  <p>DevTools Pro requests no access to websites at install. It touches a page only when you open the extension on that tab and pick a tool.</p>
   <ul>
-    <li><strong>activeTab</strong>: Used to inspect elements on the page you're currently viewing when you activate a tool.</li>
-    <li><strong>storage</strong>: Used to save your preferences (theme, tool settings) and license status locally on your device.</li>
-    <li><strong>scripting</strong>: Used to inject the inspector overlay and info panel when you activate inspection tools.</li>
+    <li><strong>activeTab</strong>: when you click the toolbar button on a tab, this grants temporary access to that one tab so the tool you pick can inspect it.</li>
+    <li><strong>scripting</strong>: injects the inspector (the on-page overlay and panel) into that tab — and its same-origin frames — when you pick a tool. Nothing is injected into any page before that.</li>
+    <li><strong>storage</strong>: saves your preferences (theme, compact panel) and recent eyedropper colours locally on your device.</li>
+  </ul>
+
+  <h2>What the tools do with a page</h2>
+  <ul>
+    <li><strong>Inspection tools</strong> (CSS, colours, fonts, spacing, measure, grid, accessibility, CSS variables, page assets, page meta) read the page's styles and structure locally to show them to you.</li>
+    <li><strong>Live Edit</strong> changes the page you are on — text, spacing, colours, font size — locally and temporarily. Changes are never saved or sent anywhere and disappear when the page reloads.</li>
+    <li><strong>Screenshots</strong> are captured from the visible tab and saved as a file you download and/or copied to your clipboard. They are never uploaded.</li>
   </ul>
 
   <h2>What the extension does NOT do</h2>
@@ -27,11 +35,8 @@
     <li>Does not use cookies or tracking pixels</li>
     <li>Does not transmit any data to external servers</li>
     <li>Does not access your browsing history</li>
-    <li>Does not modify page content (read-only inspection)</li>
+    <li>Does not run on any page until you pick a tool there</li>
   </ul>
-
-  <h2>Pro License</h2>
-  <p>If you purchase a Pro license, the transaction is processed by Stripe through ExtensionPay. We do not store your payment information. Your license status is stored locally in your browser.</p>
 
   <h2>Data Storage</h2>
   <p>All data is stored locally on your device using the browser's storage API. No data is stored on external servers.</p>
