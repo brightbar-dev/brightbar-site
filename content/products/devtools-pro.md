@@ -32,7 +32,6 @@ $60 one-time purchase. 7-day free trial.
 ## Also from Brightbar
 
 - **[Browser API Client](/products/browser-api-client/)** — Test APIs without leaving your browser. Pairs well with DevTools Pro for full-stack debugging.
-- **[Tailwind CSS Lookup](/products/tailwind-lookup/)** — Look up any Tailwind class to see its CSS output. Complements the CSS Inspector.
 - **[JSON Viewer Pro](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view and search.
 
 ## Links

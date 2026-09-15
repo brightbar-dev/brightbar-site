@@ -22,12 +22,6 @@ Auto-detects and formats JSON responses with interactive tree view, search, and 
 
 [Install from Chrome Web Store](https://chromewebstore.google.com/detail/json-viewer-pro/iodhhjpjemdfmmfffmejfnbbjbfafoac) · [Source on GitHub](https://github.com/brightbar-dev/json-viewer-pro) · [Privacy Policy](/privacy/json-viewer-pro)
 
-## Tailwind CSS Lookup
-
-Inspect Tailwind classes on any element. Search any class to see the CSS it generates.
-
-[Install from Chrome Web Store](https://chromewebstore.google.com/detail/tailwind-css-lookup/aidmbejficajnpdfdlpgpehbooffagbo) · [Source on GitHub](https://github.com/brightbar-dev/tailwind-lookup) · [Privacy Policy](/privacy/tailwind-lookup)
-
 ## Cookie DevTools
 
 Developer-focused cookie manager with real-time monitoring, profiles, and export to curl/wget.
