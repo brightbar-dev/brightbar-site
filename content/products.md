@@ -4,7 +4,7 @@ layout: "single"
 summary: "Developer tools that respect your privacy."
 ---
 
-## DevTools Pro
+## Brightbar DevTools
 
 All-in-one developer toolkit: inspect CSS, detect fonts & colors, measure spacing, take screenshots, and more. 12 tools, one extension.
 
@@ -16,7 +16,7 @@ Lightweight API client in your browser. Build requests, inspect responses, manag
 
 [Install from Chrome Web Store](https://chromewebstore.google.com/detail/browser-api-client/gnfhfenegmjdjlfclcabfmajgaiaheij) · [Source on GitHub](https://github.com/brightbar-dev/browser-api-client) · [Privacy Policy](/privacy/browser-api-client)
 
-## JSON Viewer Pro
+## Brightbar JSON Viewer
 
 Auto-detects and formats JSON responses with interactive tree view, search, and themes.
 

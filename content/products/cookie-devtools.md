@@ -19,8 +19,8 @@ Developer-focused cookie manager with real-time change monitoring, environment p
 ## Also from Brightbar
 
 - **[Browser API Client](/products/browser-api-client/)** — Test APIs right from your browser. Use cookie exports for authenticated requests.
-- **[DevTools Pro](/products/devtools-pro/)** — CSS inspector, accessibility checker, and 10 more tools in one extension.
-- **[JSON Viewer Pro](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view, search, and dark mode.
+- **[Brightbar DevTools](/products/devtools-pro/)** — CSS inspector, accessibility checker, and 10 more tools in one extension.
+- **[Brightbar JSON Viewer](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view, search, and dark mode.
 
 ## Links
 

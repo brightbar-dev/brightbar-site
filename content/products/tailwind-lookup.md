@@ -19,8 +19,8 @@ Search any Tailwind CSS class to see its CSS output. Inspect elements to discove
 
 ## Also from Brightbar
 
-- **[DevTools Pro](/products/devtools-pro/)** — CSS inspector, spacing visualizer, and 10 more tools. 
-- **[JSON Viewer Pro](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view and search.
+- **[Brightbar DevTools](/products/devtools-pro/)** — CSS inspector, spacing visualizer, and 10 more tools. 
+- **[Brightbar JSON Viewer](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view and search.
 - **[Cookie DevTools](/products/cookie-devtools/)** — Developer-focused cookie manager with real-time monitoring.
 
 ## Links
