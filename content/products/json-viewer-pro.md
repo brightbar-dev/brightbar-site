@@ -1,5 +1,5 @@
 ---
-title: "JSON Viewer Pro"
+title: "Brightbar JSON Viewer"
 summary: "Clean, fast JSON viewer with tree view, search, and syntax highlighting. No ads, no tracking."
 weight: 3
 ShowReadingTime: false
@@ -18,7 +18,7 @@ Auto-detects and formats JSON responses with an interactive tree view, search, a
 ## Also from Brightbar
 
 - **[Browser API Client](/products/browser-api-client/)** — Send API requests right from your browser. See formatted JSON responses without leaving the tab.
-- **[DevTools Pro](/products/devtools-pro/)** — CSS inspector, font detector, accessibility checker, and 9 more tools in one extension.
+- **[Brightbar DevTools](/products/devtools-pro/)** — CSS inspector, font detector, accessibility checker, and 9 more tools in one extension.
 - **[Cookie DevTools](/products/cookie-devtools/)** — Monitor, edit, and export cookies in developer-friendly formats.
 
 ## Links

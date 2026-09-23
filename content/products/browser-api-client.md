@@ -27,8 +27,8 @@ $50/year. 7-day free trial.
 
 ## Also from Brightbar
 
-- **[JSON Viewer Pro](/products/json-viewer-pro/)** — Auto-format JSON responses in any tab. Great alongside API Client for inspecting endpoints.
-- **[DevTools Pro](/products/devtools-pro/)** — CSS inspector, font detector, and 10 more tools for frontend debugging.
+- **[Brightbar JSON Viewer](/products/json-viewer-pro/)** — Auto-format JSON responses in any tab. Great alongside API Client for inspecting endpoints.
+- **[Brightbar DevTools](/products/devtools-pro/)** — CSS inspector, font detector, and 10 more tools for frontend debugging.
 - **[Cookie DevTools](/products/cookie-devtools/)** — Manage cookies while testing APIs. Export to curl headers for authenticated requests.
 
 ## Links

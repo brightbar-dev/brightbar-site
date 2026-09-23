@@ -1,5 +1,5 @@
 ---
-title: "DevTools Pro"
+title: "Brightbar DevTools"
 summary: "All-in-one developer toolkit: inspect CSS, detect fonts & colors, measure spacing, take screenshots, and more."
 weight: 1
 ShowReadingTime: false
@@ -31,8 +31,8 @@ $60 one-time purchase. 7-day free trial.
 
 ## Also from Brightbar
 
-- **[Browser API Client](/products/browser-api-client/)** — Test APIs without leaving your browser. Pairs well with DevTools Pro for full-stack debugging.
-- **[JSON Viewer Pro](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view and search.
+- **[Browser API Client](/products/browser-api-client/)** — Test APIs without leaving your browser. Pairs well with Brightbar DevTools for full-stack debugging.
+- **[Brightbar JSON Viewer](/products/json-viewer-pro/)** — Auto-format JSON responses with tree view and search.
 
 ## Links
 
