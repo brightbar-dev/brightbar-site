@@ -9,14 +9,14 @@
 <body>
   <p><a href="/">&larr; brightbar.dev</a></p>
   <h1>Privacy Policy — Browser API Client</h1>
-  <p class="updated">Last updated: 2026-03-06</p>
+  <p class="updated">Last updated: 2026-09-24</p>
 
   <h2>Data Collection</h2>
   <p>Browser API Client does <strong>not</strong> collect, transmit, or share any personal data.</p>
 
   <h2>Permissions Explained</h2>
   <ul>
-    <li><strong>storage</strong>: Used to save your request history, environments, collections, and preferences locally on your device.</li>
+    <li><strong>storage</strong>: Used to save your request history, environments, collections, and preferences locally on your device, and a small counter so that the extension asks for a store review at most once, and only after real use: how many requests got a response, on how many days, and whether you have answered the request. The counter holds nothing about your requests and never leaves your device.</li>
     <li><strong>host_permissions (&lt;all_urls&gt;)</strong>: Required to send HTTP requests to any API endpoint. The extension acts as an HTTP client — it must be able to reach any URL you choose to test. Requests are only sent when you explicitly click "Send".</li>
   </ul>
 
@@ -25,15 +25,12 @@
 
   <h2>What the extension does NOT do</h2>
   <ul>
-    <li>Does not collect analytics or usage data</li>
+    <li>Does not collect analytics or usage data (the review counter above stays on your device)</li>
     <li>Does not use cookies or tracking pixels</li>
     <li>Does not proxy requests through any server</li>
     <li>Does not access your browsing history</li>
     <li>Does not read or modify page content</li>
   </ul>
-
-  <h2>Pro License</h2>
-  <p>If you purchase a Pro license, the transaction is processed by Stripe through ExtensionPay. We do not store your payment information. Your license status is stored locally in your browser.</p>
 
   <h2>Data Storage</h2>
   <p>Request history, environments, and collections are stored locally on your device using the browser's storage API. You can export and delete this data at any time from the extension's settings page. No data is stored on external servers.</p>
