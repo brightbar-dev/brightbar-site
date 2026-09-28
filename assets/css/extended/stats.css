@@ -1,0 +1,203 @@
+/* /stats — Chrome Web Store user-count chart. Categorical palette validated
+   with the dataviz skill's validate_palette.js (adjacent pairlist, light and
+   dark): #2a78d6 #eb6834 #1baf7a #eda100 #e87ba4 (light) / #3987e5 #d95926
+   #199e70 #c98500 #d55181 (dark). Slots are assigned by each product's first
+   appearance in the data (stats-chart.js), never by name or rank, so a slot
+   never repaints when the product list changes. */
+.stats-page {
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
+  --series-7: #4a3aa7;
+  --series-8: #e34948;
+  --grid-line: var(--border);
+  --total-line: var(--primary);
+  margin-top: 1rem;
+}
+:root[data-theme="dark"] .stats-page {
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
+  --series-6: #008300;
+  --series-7: #9085e9;
+  --series-8: #e66767;
+}
+
+.stats-total {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0.5rem 0 1.25rem;
+}
+.stats-total-label {
+  color: var(--secondary);
+  font-size: 0.95rem;
+}
+.stats-total-value {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stats-chart-wrap {
+  position: relative;
+}
+.stats-chart {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  touch-action: pan-y;
+}
+.stats-chart .grid-line {
+  stroke: var(--grid-line);
+  stroke-width: 1;
+}
+.stats-chart .axis-label {
+  fill: var(--secondary);
+  font-size: 11px;
+}
+.stats-chart .series-line {
+  fill: none;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.stats-chart .series-line.retired {
+  stroke-dasharray: 5 4;
+}
+.stats-chart .series-dot {
+  stroke: var(--theme);
+  stroke-width: 2;
+}
+.stats-chart .total-line {
+  fill: none;
+  stroke: var(--total-line);
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.stats-chart .direct-label {
+  fill: var(--primary);
+  font-size: 12px;
+  font-weight: 600;
+}
+.stats-chart .crosshair {
+  stroke: var(--secondary);
+  stroke-width: 1;
+  pointer-events: none;
+}
+
+.stats-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-9999px, -9999px);
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.7rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  z-index: 10;
+}
+.stats-tooltip[hidden] { display: none; }
+.stats-tooltip .tt-date {
+  color: var(--secondary);
+  margin-bottom: 0.25rem;
+}
+.stats-tooltip .tt-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.stats-tooltip .tt-key {
+  display: inline-block;
+  width: 14px;
+  height: 2px;
+  border-radius: 1px;
+  flex: none;
+}
+.stats-tooltip .tt-name {
+  color: var(--secondary);
+  flex: 1;
+}
+.stats-tooltip .tt-value {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.stats-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.stats-legend .legend-key {
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  flex: none;
+}
+.stats-legend .legend-key.retired {
+  background-image: linear-gradient(to right, currentColor 60%, transparent 60%);
+  background-size: 6px 2px;
+  background-color: transparent !important;
+  height: 2px;
+}
+.stats-legend .legend-key.total {
+  height: 3px;
+}
+
+.stats-table-wrap {
+  overflow-x: auto;
+  margin: 0.75rem 0 1rem;
+}
+.stats-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.stats-table th,
+.stats-table td {
+  text-align: left;
+  padding: 0.4rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.stats-table td.num {
+  font-variant-numeric: tabular-nums;
+}
+.stats-table .status-retired {
+  color: var(--secondary);
+  font-size: 0.8rem;
+}
+
+.stats-meta {
+  color: var(--secondary);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  .stats-total-value { font-size: 1.9rem; }
+  .stats-chart { aspect-ratio: 4 / 5; }
+  .stats-legend { font-size: 0.8rem; }
+  .stats-table { font-size: 0.8rem; }
+}

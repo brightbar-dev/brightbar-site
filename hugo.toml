@@ -40,10 +40,16 @@ paginate = 10
   weight = 20
 
 [[menu.main]]
+  identifier = "stats"
+  name = "Stats"
+  url = "/stats/"
+  weight = 30
+
+[[menu.main]]
   identifier = "search"
   name = "Search"
   url = "/search/"
-  weight = 30
+  weight = 40
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
