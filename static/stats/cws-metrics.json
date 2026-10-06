@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T18:24:46.78435Z",
+  "generated_at": "2026-10-06T04:13:45.880309Z",
   "total_users": 39,
   "products": [
     {
@@ -35,7 +35,7 @@
   ],
   "history": [
     {
-      "timestamp": "2026-04-09T09:05:26-05:00",
+      "timestamp": "2026-04-09T14:05:26Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -45,7 +45,7 @@
       "version": "0.2.0"
     },
     {
-      "timestamp": "2026-04-10T21:54:59-05:00",
+      "timestamp": "2026-04-11T02:54:59Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -55,7 +55,7 @@
       "version": "0.2.0"
     },
     {
-      "timestamp": "2026-04-11T21:27:49-05:00",
+      "timestamp": "2026-04-12T02:27:49Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -65,7 +65,7 @@
       "version": "0.2.0"
     },
     {
-      "timestamp": "2026-04-15T22:42:13-05:00",
+      "timestamp": "2026-04-16T03:42:13Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -75,7 +75,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-04-16T04:00:00-05:00",
+      "timestamp": "2026-04-16T09:00:00Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -85,7 +85,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-04-16T07:29:08-05:00",
+      "timestamp": "2026-04-16T12:29:08Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -95,7 +95,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-04-19T21:23:12-05:00",
+      "timestamp": "2026-04-20T02:23:12Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -105,7 +105,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-04-21T06:48:45-05:00",
+      "timestamp": "2026-04-21T11:48:45Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -115,7 +115,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-12T12:06:04-05:00",
+      "timestamp": "2026-05-12T17:06:04Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -125,7 +125,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-12T12:06:04-05:00",
+      "timestamp": "2026-05-12T17:06:04Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -135,7 +135,7 @@
       "version": "0.2.0"
     },
     {
-      "timestamp": "2026-05-12T12:06:04-05:00",
+      "timestamp": "2026-05-12T17:06:04Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -145,7 +145,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-12T12:06:04-05:00",
+      "timestamp": "2026-05-12T17:06:04Z",
       "product_id": "tailwind-lookup",
       "cws_id": "aidmbejficajnpdfdlpgpehbooffagbo",
       "name": "Tailwind CSS Lookup",
@@ -155,7 +155,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-14T22:35:20-05:00",
+      "timestamp": "2026-05-15T03:35:20Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -165,7 +165,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-14T22:35:20-05:00",
+      "timestamp": "2026-05-15T03:35:20Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -175,7 +175,7 @@
       "version": "0.2.0"
     },
     {
-      "timestamp": "2026-05-14T22:35:20-05:00",
+      "timestamp": "2026-05-15T03:35:20Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -185,7 +185,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-14T22:35:20-05:00",
+      "timestamp": "2026-05-15T03:35:20Z",
       "product_id": "tailwind-lookup",
       "cws_id": "aidmbejficajnpdfdlpgpehbooffagbo",
       "name": "Tailwind CSS Lookup",
@@ -195,7 +195,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-14T23:45:11-05:00",
+      "timestamp": "2026-05-15T04:45:11Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -205,7 +205,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-14T23:45:11-05:00",
+      "timestamp": "2026-05-15T04:45:11Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -215,7 +215,7 @@
       "version": "0.2.0"
     },
     {
-      "timestamp": "2026-05-14T23:45:11-05:00",
+      "timestamp": "2026-05-15T04:45:11Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -225,7 +225,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-05-14T23:45:11-05:00",
+      "timestamp": "2026-05-15T04:45:11Z",
       "product_id": "tailwind-lookup",
       "cws_id": "aidmbejficajnpdfdlpgpehbooffagbo",
       "name": "Tailwind CSS Lookup",
@@ -235,7 +235,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-08-26T00:17:21-05:00",
+      "timestamp": "2026-08-26T05:17:21Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -245,7 +245,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-08-26T00:17:21-05:00",
+      "timestamp": "2026-08-26T05:17:21Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -255,7 +255,7 @@
       "version": "0.2.0"
     },
     {
-      "timestamp": "2026-08-26T00:17:21-05:00",
+      "timestamp": "2026-08-26T05:17:21Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -265,7 +265,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-08-26T00:17:21-05:00",
+      "timestamp": "2026-08-26T05:17:21Z",
       "product_id": "tailwind-lookup",
       "cws_id": "aidmbejficajnpdfdlpgpehbooffagbo",
       "name": "Tailwind CSS Lookup",
@@ -275,7 +275,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-09-18T22:06:28-05:00",
+      "timestamp": "2026-09-19T03:06:28Z",
       "product_id": "browser-api-client",
       "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
       "name": "Browser API Client",
@@ -285,7 +285,7 @@
       "version": "0.4.0"
     },
     {
-      "timestamp": "2026-09-18T22:06:28-05:00",
+      "timestamp": "2026-09-19T03:06:28Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -295,7 +295,7 @@
       "version": "0.4.0"
     },
     {
-      "timestamp": "2026-09-18T22:06:28-05:00",
+      "timestamp": "2026-09-19T03:06:28Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -305,7 +305,7 @@
       "version": "0.3.0"
     },
     {
-      "timestamp": "2026-09-18T22:06:28-05:00",
+      "timestamp": "2026-09-19T03:06:28Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -315,7 +315,7 @@
       "version": "0.5.0"
     },
     {
-      "timestamp": "2026-09-24T07:15:51-05:00",
+      "timestamp": "2026-09-24T12:15:51Z",
       "product_id": "browser-api-client",
       "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
       "name": "Browser API Client",
@@ -325,7 +325,7 @@
       "version": "0.6.0"
     },
     {
-      "timestamp": "2026-09-24T07:15:51-05:00",
+      "timestamp": "2026-09-24T12:15:51Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -335,7 +335,7 @@
       "version": "0.6.0"
     },
     {
-      "timestamp": "2026-09-24T07:15:51-05:00",
+      "timestamp": "2026-09-24T12:15:51Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -345,7 +345,7 @@
       "version": "0.5.0"
     },
     {
-      "timestamp": "2026-09-24T07:15:51-05:00",
+      "timestamp": "2026-09-24T12:15:51Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -355,7 +355,7 @@
       "version": "0.7.0"
     },
     {
-      "timestamp": "2026-09-27T09:05:09-05:00",
+      "timestamp": "2026-09-27T14:05:09Z",
       "product_id": "browser-api-client",
       "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
       "name": "Browser API Client",
@@ -365,7 +365,7 @@
       "version": "0.6.0"
     },
     {
-      "timestamp": "2026-09-27T09:05:09-05:00",
+      "timestamp": "2026-09-27T14:05:09Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -375,7 +375,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T09:05:09-05:00",
+      "timestamp": "2026-09-27T14:05:09Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -385,7 +385,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T09:05:09-05:00",
+      "timestamp": "2026-09-27T14:05:09Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -395,7 +395,7 @@
       "version": "0.8.1"
     },
     {
-      "timestamp": "2026-09-27T18:43:26-05:00",
+      "timestamp": "2026-09-27T23:43:26Z",
       "product_id": "browser-api-client",
       "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
       "name": "Browser API Client",
@@ -405,7 +405,7 @@
       "version": "0.6.0"
     },
     {
-      "timestamp": "2026-09-27T18:43:26-05:00",
+      "timestamp": "2026-09-27T23:43:26Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -415,7 +415,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T18:43:26-05:00",
+      "timestamp": "2026-09-27T23:43:26Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -425,7 +425,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T18:43:26-05:00",
+      "timestamp": "2026-09-27T23:43:26Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -435,7 +435,7 @@
       "version": "0.8.1"
     },
     {
-      "timestamp": "2026-09-27T19:55:46-05:00",
+      "timestamp": "2026-09-28T00:55:46Z",
       "product_id": "browser-api-client",
       "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
       "name": "Browser API Client",
@@ -445,7 +445,7 @@
       "version": "0.6.0"
     },
     {
-      "timestamp": "2026-09-27T19:55:46-05:00",
+      "timestamp": "2026-09-28T00:55:46Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -455,7 +455,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T19:55:46-05:00",
+      "timestamp": "2026-09-28T00:55:46Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -465,7 +465,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T19:55:46-05:00",
+      "timestamp": "2026-09-28T00:55:46Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -475,7 +475,7 @@
       "version": "0.8.1"
     },
     {
-      "timestamp": "2026-09-27T22:36:09.061619-05:00",
+      "timestamp": "2026-09-28T03:36:09.061619Z",
       "product_id": "browser-api-client",
       "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
       "name": "Browser API Client",
@@ -485,7 +485,7 @@
       "version": "0.6.0"
     },
     {
-      "timestamp": "2026-09-27T22:36:09.061619-05:00",
+      "timestamp": "2026-09-28T03:36:09.061619Z",
       "product_id": "cookie-devtools",
       "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
       "name": "Cookie DevTools",
@@ -495,7 +495,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T22:36:09.061619-05:00",
+      "timestamp": "2026-09-28T03:36:09.061619Z",
       "product_id": "devtools-pro",
       "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
       "name": "DevTools Pro",
@@ -505,7 +505,7 @@
       "version": "0.6.1"
     },
     {
-      "timestamp": "2026-09-27T22:36:09.061619-05:00",
+      "timestamp": "2026-09-28T03:36:09.061619Z",
       "product_id": "json-viewer-pro",
       "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
       "name": "JSON Viewer Pro",
@@ -513,6 +513,86 @@
       "rating": 0,
       "reviews": 0,
       "version": "0.8.1"
+    },
+    {
+      "timestamp": "2026-10-04T14:05:06.335931Z",
+      "product_id": "browser-api-client",
+      "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
+      "name": "Browser API Client",
+      "users": 6,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.6.1"
+    },
+    {
+      "timestamp": "2026-10-04T14:05:06.335931Z",
+      "product_id": "cookie-devtools",
+      "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
+      "name": "Cookie DevTools",
+      "users": 7,
+      "rating": 5,
+      "reviews": 1,
+      "version": "0.6.2"
+    },
+    {
+      "timestamp": "2026-10-04T14:05:06.335931Z",
+      "product_id": "devtools-pro",
+      "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
+      "name": "DevTools Pro",
+      "users": 5,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.6.2"
+    },
+    {
+      "timestamp": "2026-10-04T14:05:06.335931Z",
+      "product_id": "json-viewer-pro",
+      "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
+      "name": "JSON Viewer Pro",
+      "users": 21,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.8.2"
+    },
+    {
+      "timestamp": "2026-10-06T04:13:43.109844Z",
+      "product_id": "browser-api-client",
+      "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
+      "name": "Browser API Client",
+      "users": 6,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.6.1"
+    },
+    {
+      "timestamp": "2026-10-06T04:13:43.109844Z",
+      "product_id": "cookie-devtools",
+      "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
+      "name": "Cookie DevTools",
+      "users": 7,
+      "rating": 5,
+      "reviews": 1,
+      "version": "0.6.2"
+    },
+    {
+      "timestamp": "2026-10-06T04:13:43.109844Z",
+      "product_id": "devtools-pro",
+      "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
+      "name": "DevTools Pro",
+      "users": 5,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.6.2"
+    },
+    {
+      "timestamp": "2026-10-06T04:13:43.109844Z",
+      "product_id": "json-viewer-pro",
+      "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
+      "name": "JSON Viewer Pro",
+      "users": 21,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.8.2"
     }
   ]
 }
