@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:13:45.880309Z",
+  "generated_at": "2026-10-11T14:05:10.940247Z",
   "total_users": 39,
   "products": [
     {
@@ -593,6 +593,46 @@
       "rating": 0,
       "reviews": 0,
       "version": "0.8.2"
+    },
+    {
+      "timestamp": "2026-10-11T14:05:07.166723Z",
+      "product_id": "browser-api-client",
+      "cws_id": "gnfhfenegmjdjlfclcabfmajgaiaheij",
+      "name": "Browser API Client",
+      "users": 5,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.7.0"
+    },
+    {
+      "timestamp": "2026-10-11T14:05:07.166723Z",
+      "product_id": "cookie-devtools",
+      "cws_id": "pgohmdladleifefhobididhhlmjcknjl",
+      "name": "Cookie DevTools",
+      "users": 9,
+      "rating": 5,
+      "reviews": 1,
+      "version": "0.7.0"
+    },
+    {
+      "timestamp": "2026-10-11T14:05:07.166723Z",
+      "product_id": "devtools-pro",
+      "cws_id": "lbgjfgdjjeiajkkcppdnclmkicihehkf",
+      "name": "DevTools Pro",
+      "users": 5,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.7.0"
+    },
+    {
+      "timestamp": "2026-10-11T14:05:07.166723Z",
+      "product_id": "json-viewer-pro",
+      "cws_id": "iodhhjpjemdfmmfffmejfnbbjbfafoac",
+      "name": "JSON Viewer Pro",
+      "users": 20,
+      "rating": 0,
+      "reviews": 0,
+      "version": "0.9.0"
     }
   ]
 }
